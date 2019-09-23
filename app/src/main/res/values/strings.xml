@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">InRating App</string>
+
+    <string name="likes_title">Likes</string>
+    <string name="reposts_title">Reposts</string>
+    <string name="commentators_title">Commentators</string>
+    <string name="mentions_title">Mentions</string>
+
+    <string name="hint_search">post id</string>
+    <string name="search_field_empty">Enter post id</string>
+
+</resources>

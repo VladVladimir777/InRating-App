@@ -1,0 +1,31 @@
+package com.example.code.inratingapp.api.apiData
+
+data class PostsResponse(
+    var site_link: String? = null,
+    var attachments: Attachments? = null,
+    var created_at_timestamp: String? = null,
+    var created_at: String? = null,
+    var type: String? = null,
+    var title: String? = null,
+    var content: Any? = null,
+    var intags: Array<String>? = null,
+    var is_avatar: String? = null,
+    var is_bookmarked: String? = null,
+    var extra: Any? = null,
+    var attachments_order: Array<AttachmentsOrder>? = null,
+    var id: String? = null,
+    var place: Any? = null,
+    var is_reposted: String? = null,
+    var reposts_count: String? = null,
+    var views_count: String? = null,
+    var slug: String? = null,
+    var is_liked: String? = null,
+    var visibility: String? = null,
+    var allow_comments: String? = null,
+    var author: Author? = null,
+    var active: String? = null,
+    var likes_count: String? = null,
+    var comments_count: String? = null,
+    var bookmarks_count: String? = null,
+    var is_repost: String? = null
+)
