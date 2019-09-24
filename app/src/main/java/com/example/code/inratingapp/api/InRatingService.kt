@@ -12,7 +12,6 @@ class InRatingService {
         .addConverterFactory(GsonConverterFactory.create())
 
         .build()
-
     private val getNewsApi: InRatingApi = retrofit.create(InRatingApi::class.java)
 
 

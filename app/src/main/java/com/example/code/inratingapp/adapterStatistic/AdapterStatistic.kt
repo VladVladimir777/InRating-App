@@ -33,7 +33,6 @@ class AdapterStatistic(var data: List<ItemStatistic>) :
     inner class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         fun bind(item: ItemStatistic) = with(itemView) {
             itemView.tvItemStatisticTitle.text = item.title
-            //itemView.tvItemStatisticTitleCount.text = item.adapterUsers?.itemCount.toString()
             itemView.rvListUsers.layoutManager =
                 LinearLayoutManager(itemView.context, LinearLayoutManager.HORIZONTAL, false)
             itemView.rvListUsers.adapter = item.adapterUsers
